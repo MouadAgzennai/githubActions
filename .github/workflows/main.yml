@@ -10,5 +10,5 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - name: Print a welcome message
-       run: "Welcolmecto our first Actions Workfkow !"
+       run: echo "Welcome to our first Actions Workfkow !"
      
