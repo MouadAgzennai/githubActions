@@ -10,5 +10,9 @@ jobs:
    runs-on: ubuntu-latest
    steps:
      - name: Print a welcome message
-       run: echo "Welcome to our first Actions Workfkow !"
+      run: echo "Welcome to our first Actions Workfkow !"
+     - name : Checkout repository
+      uses: actions/checkout@v6.1.0
+     - name: List repository files
+      run : ls -la
      
